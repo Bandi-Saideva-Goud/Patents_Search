@@ -7,10 +7,8 @@
 2. Install python3.8
 
 ## How to run
-1. Create a virtual environment of `python 3.8`.
-2. Now install requirements using `pip install -r requirements.txt`
-3. In the same python environment run the api `python api.py`
-4. You can test the search endpoint using the notebook in the folder `test/test_query_endpoint.ipynb`
+1. Once you cloned the repo and in the root directory run the command `docker-compose up --build`
+2. Then you can test the patent search using the script `test\test_query_endpoint.ipynb`
 
 ```  
 .
