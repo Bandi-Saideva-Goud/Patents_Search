@@ -1,4 +1,4 @@
-# Phone-Verified-Leads
+# Patents-Search
 ## Overview
 - This guide gives the end to end implementation of relevant patent retreival based on query.
 
