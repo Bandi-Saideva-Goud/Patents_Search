@@ -1,0 +1,5 @@
+torch==2.2.1
+sentence_transformers==2.5.1
+fastapi==0.110.0
+json_log_formatter==0.5.2
+uvicorn==0.27.1
