@@ -28,14 +28,14 @@ class PatentRetrievalInput(BaseModel):
     query: str = ""
 
 ## Reading Global variables 
-SIMILARITY_THRESHOLD = 0.65
+SIMILARITY_THRESHOLD = 0.60
 
 # define the formatter and logging file
 formatter = json_log_formatter.VerboseJSONFormatter()
 json_handler = logging.StreamHandler(sys.stdout)
 json_handler.setFormatter(formatter)
 # create logger
-logger = logging.getLogger('template_call_logger')
+logger = logging.getLogger('patents_search_logger')
 # clearing previous handlers if any
 if (logger.handlers):
     logger.handlers.clear()
